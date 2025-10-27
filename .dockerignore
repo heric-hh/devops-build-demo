@@ -1,0 +1,8 @@
+# Ignorar la carpeta de dependencias locales
+node_modules
+
+# Ignorar archivos temporales y de configuración
+npm-debug.log
+.git
+.gitignore
+.vscode
