@@ -6,7 +6,7 @@ describe("GET /", function () {
   // Aumentamos el timeout para dar tiempo a la aplicación a iniciarse si fuera necesario
   this.timeout(5000);
 
-  it('Debería retornar "¡Hola CI/CD Build Exitoso!" y status 200', function (done) {
+  it('Debería retornar "¡Hola CI/CD Build Exitoso con cambios!" y status 200', function (done) {
     request(app)
       .get("/")
       .expect("Content-Type", /text\/html/) // Espera que el tipo de contenido sea HTML
