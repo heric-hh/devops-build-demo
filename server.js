@@ -4,7 +4,7 @@ const app = express();
 const PORT = 3000;
 
 app.get("/", (req, res) => {
-  res.send("¡Hola CI/CD Build Exitoso y mas cambios!");
+  res.send("¡Hola CI/CD Build Exitoso!");
 });
 
 // Solo escucha el puerto si el módulo se ejecuta directamente (no cuando se importa para pruebas)
